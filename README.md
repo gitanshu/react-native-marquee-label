@@ -51,21 +51,21 @@ export default MarqueeSample;
 ![loading](https://github.com/remobile/react-native-marquee-label/blob/master/screencasts/demo.gif)
 
 ### Props
-- `text: PropTypes.string.isRequired,
-- `scrollDuration: PropTypes.number, //秒
-- `marqueeType: PropTypes.number, //ios
-- `fadeLength: PropTypes.number, //ios
-- `leadingBuffer: PropTypes.number, //ios
-- `trailingBuffer: PropTypes.number, //ios
-- `animationDelay: PropTypes.number, //ios
-- `isRepeat: PropTypes.bool, //android
-- `startPoint: PropTypes.number, //android
-- `direction: PropTypes.number, //android
-- `fontSize: PropTypes.number,
+- `text: PropTypes.string.isRequired`
+- `scrollDuration: PropTypes.number` //seconds
+- `marqueeType: PropTypes.number` //ios
+- `fadeLength: PropTypes.number` //ios
+- `leadingBuffer: PropTypes.number` //ios
+- `trailingBuffer: PropTypes.number` //ios
+- `animationDelay: PropTypes.number` //ios
+- `isRepeat: PropTypes.bool` //android
+- `startPoint: PropTypes.number` //android
+- `direction: PropTypes.number` //android
+- `fontSize: PropTypes.number`
 - `fontWeight: PropTypes.oneOf(
     ['normal' /*default*/, 'bold',
       '100', '200', '300', '400', '500', '600', '700', '800', '900']
-  ),
-- `fontStyle: PropTypes.oneOf(['normal', 'italic']),
-- `fontFamily: PropTypes.string,
-- `color: ColorPropType
+  )`
+- `fontStyle: PropTypes.oneOf(['normal', 'italic'])`
+- `fontFamily: PropTypes.string`
+- `color: ColorPropType`
